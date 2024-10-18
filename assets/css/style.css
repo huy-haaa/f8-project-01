@@ -190,6 +190,15 @@ a:hover {
     align-items: center;
 }
 
+.clients .logo-brand img{
+    padding:26.5px 41px ;
+    border-radius: 12px;
+}
+
+.clients .logo-brand img:hover {
+    box-shadow: 0px 10px 20px 0px #0000001a;
+}
+
 .clients .logo-brand:hover {
     cursor: pointer;
 }
@@ -332,6 +341,10 @@ a:hover {
     margin-top: 68px;
     gap: 30px;
     display: flex;
+}
+
+.feature .list a {
+    text-decoration: none;
 }
 
 .feature .list .items {
@@ -622,6 +635,10 @@ a:hover {
     color: #1c1c1d;
     font-size: 2rem;
     font-weight: 700;
+}
+
+.footer .list-item .item {
+    min-width: 125px;
 }
 
 
