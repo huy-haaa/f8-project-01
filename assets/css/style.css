@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -53,7 +58,7 @@ a:hover {
 /* ==================== Header ===================== */
 
 .hero-wrap {
-    height: 88vh;
+    height: calc(100vh - 90px);
     position: relative;
     padding-bottom: 79px;
     background-color: #e6f0ff;

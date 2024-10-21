@@ -9,7 +9,6 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>F8 Project 01</title>
-<<<<<<< HEAD
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/font/stylesheet.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
@@ -19,27 +18,31 @@
             type="image/png"
             href="./assets/img/fabicon-icon.png"
         />
-=======
-       <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/font/stylesheet.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
         <!-- thêm favicon cho trang wed -->
-        <link rel="shortcut icon" type="image/png" href="./assets/img/fabicon-icon.png"/>
->>>>>>> f4bcc07047ecf03fe1c129a398b8bedb70f118ae
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="./assets/img/fabicon-icon.png"
+        />
     </head>
     <body>
-        <main>
+        <main id="home">
             <!-- Header -->
             <div class="header-fix">
                 <div class="content">
                     <nav class="navbar">
-                        <img src="./assets/img/logo.svg" alt="Besnik." />
+                        <a href="/"
+                            ><img src="./assets/img/logo.svg" alt="Besnik."
+                        /></a>
                         <ul>
-                            <li><a href="#trend">Home</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#guides">Services</a></li>
+                            <li><a href="#feature">Features</a></li>
+                            <li><a href="#stat">Resources</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                         <div class="actions">
                             <a href="#" class="action-link">Sign in</a>
@@ -73,7 +76,7 @@
                 </div>
             </header>
             <!-- Clients -->
-            <div class="clients">
+            <div class="clients" id="clients">
                 <div class="content">
                     <div class="row logo">
                         <div class="logo-clients">
@@ -91,7 +94,7 @@
                         <p>More than 45,000+ companies trust besnik</p>
                         <p>5 Star Ratings (2k+ Review)</p>
                     </div>
-                    <div class="logo-brand">
+                    <div class="logo-brand" id="guides">
                         <a href="#">
                             <img src="./assets/img/logo-2.svg" alt="logo-2" />
                         </a>
@@ -180,7 +183,7 @@
             </div>
 
             <!-- Featured -->
-            <div class="feature">
+            <div class="feature" id="feature">
                 <div class="content">
                     <header class="feature-header">
                         <h2 class="sub-title">Featured Properties</h2>
@@ -322,7 +325,7 @@
                 </div>
             </div>
             <!-- stat -->
-            <div class="stat">
+            <div class="stat" id="stat">
                 <div class="content">
                     <div class="row">
                         <div class="img-block">
@@ -498,7 +501,7 @@
                 </div>
             </div>
             <!-- subcription -->
-            <div class="sub">
+            <div class="sub" id="contact">
                 <div class="content">
                     <div class="body">
                         <div class="sub-block">
