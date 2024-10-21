@@ -52,15 +52,24 @@ a:hover {
 }
 /* ==================== Header ===================== */
 
-.header-main {
-    height: 100vh;
+.hero-wrap {
+    height: 88vh;
     position: relative;
     padding-bottom: 79px;
     background-color: #e6f0ff;
 }
 
+.header-fix {
+    background-color: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    z-index: 1;
+}
+
 .navbar {
-    padding-top: 38px;
+    padding: 12px 0;
     display: flex;
     align-items: center;
 }
@@ -109,7 +118,7 @@ a:hover {
 /* Hero info */
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .infor {
@@ -181,7 +190,6 @@ a:hover {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2rem; /* 125% */
-    
 }
 
 .clients .logo-brand {
@@ -191,16 +199,14 @@ a:hover {
     align-items: center;
 }
 /* thêm bóng đổ cho logo */
-.clients .logo-brand img{
-    padding:26.5px 41px ;
+.clients .logo-brand img {
+    padding: 26.5px 41px;
     border-radius: 12px;
 }
 
 .clients .logo-brand img:hover {
     box-shadow: 0px 10px 20px 0px #0000001a;
 }
-
-
 
 /* ==================== Guides ===================== */
 
@@ -359,7 +365,6 @@ a:hover {
 }
 
 .feature .list .body {
-
     margin-top: 17px;
     margin-left: 20px;
 }
@@ -628,8 +633,6 @@ a:hover {
     display: flex;
     gap: 185px;
 }
-
-
 
 .footer .list-item .title {
     align-items: center;
