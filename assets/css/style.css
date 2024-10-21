@@ -61,6 +61,10 @@ a:hover {
     height: calc(100vh - 90px);
     position: relative;
     padding-bottom: 79px;
+    /* cài đặt hướng hiển thị cho các flex-item */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
     background-color: #e6f0ff;
 }
 
@@ -122,15 +126,11 @@ a:hover {
 
 /* Hero info */
 
-.hero {
-    padding-top: 130px;
-}
-
-.hero .infor {
+.infor {
     max-width: 559px;
 }
 
-.hero .sub-title {
+.sub-title {
     margin-bottom: 8px;
     color: #687690;
     font-size: 1.8rem;
@@ -139,7 +139,7 @@ a:hover {
     letter-spacing: 0.018rem;
 }
 
-.hero .title {
+.title {
     margin-bottom: 30px;
     color: #000336;
     font-size: 6.2rem;
@@ -147,7 +147,7 @@ a:hover {
     line-height: 7.6rem; /* 118.75% */
 }
 
-.hero .desc {
+.desc {
     margin-bottom: 40px;
     color: #5a6473;
     font-size: 1.8rem;
@@ -155,7 +155,7 @@ a:hover {
     line-height: 3.2rem; /* 177.778% */
 }
 
-.hero .btn {
+.btn .action-btn {
     text-decoration: none;
     min-width: 170px;
     color: #fff;
