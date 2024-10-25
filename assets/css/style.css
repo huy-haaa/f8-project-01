@@ -58,7 +58,7 @@ a:hover {
 /* ==================== Header ===================== */
 
 .hero-wrap {
-    height: calc(100vh - 90px);
+    height: calc(100vh - 67px);
     position: relative;
     padding-bottom: 79px;
     /* cài đặt hướng hiển thị cho các flex-item */
@@ -70,7 +70,7 @@ a:hover {
 
 .header-fix {
     background-color: #e6f0ff;
-    padding-top: 26px;
+    padding-top: 15px;
     position: sticky;
     top: 0px;
     display: flex;
@@ -78,7 +78,7 @@ a:hover {
 }
 
 .navbar {
-    padding: 12px 0;
+    padding: 0 0 12px;
     display: flex;
     align-items: center;
 }
